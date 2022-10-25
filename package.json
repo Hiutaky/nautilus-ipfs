@@ -1,8 +1,8 @@
 {
-  "name": "ipfs-reveal-nft",
+  "name": "nautilus-ipfs",
   "version": "1.0.0",
   "type": "module",
-  "description": "Dynamically reveal NFTs on IPFS",
+  "description": "Submarine and Reveal IPFS Files based on ERC721 Events",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
