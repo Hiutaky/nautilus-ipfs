@@ -15,6 +15,7 @@ const main = async () => {
         console.log( `🔒 Provider Ready: ${RPC}` )
         if( ! ethers.utils.isAddress(contractAddress) ) error("Provide a valid contract address")
         const contract = new ethers.Contract(
+            contractAddress,
             ERC721Abi,
             provider
         )
