@@ -1,0 +1,7 @@
+.DS_STORE
+
+/node_modules
+/ipfs-private
+/ipfs-public
+/tmp
+/file
